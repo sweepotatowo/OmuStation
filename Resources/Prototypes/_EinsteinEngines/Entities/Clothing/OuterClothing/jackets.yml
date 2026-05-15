@@ -14,6 +14,9 @@
     fiberMaterial: fibers-insulative
     fiberColor: fibers-yellow
   - type: FingerprintMask
+  - type: ClothingTakesUpExtraSlots
+    slots:
+  - gloves
   - type: GloveJacket # Components for these jackets that allows them to act as gloves. Mostly for surgery.
 # if species-specific sprites are fixed to not have displacement maps apply to them, this will break.
 # replacing the equipped-OUTERCLOTHING-xelthia.png file in the RSI with the one in the InsulatedJacket/insulated_jacket_unmodified folder would fix this.
@@ -32,4 +35,7 @@
   - type: Fiber
     fiberMaterial: fibers-nitrile
   - type: FingerprintMask
+  - type: ClothingTakesUpExtraSlots
+    slots:
+    - gloves
   - type: GloveJacket
